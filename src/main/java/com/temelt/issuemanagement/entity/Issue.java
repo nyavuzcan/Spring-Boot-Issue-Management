@@ -12,7 +12,7 @@ import java.util.Date;
 @AllArgsConstructor
 @ToString
 @EqualsAndHashCode
-public class Issue extends BaseEntity {
+public class Issue extends BaseEntity  {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
